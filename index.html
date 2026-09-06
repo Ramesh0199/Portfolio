@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kalash Café — Mangalbazar, Lalitpur</title>
+<meta name="description" content="Kalash Café in Mangalbazar, Lalitpur — coffee, momo, and a terrace by the temple square.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header" id="top">
+  <div class="header-inner">
+    <a class="brand" href="#top">
+      <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
+        <path d="M20 4 C20 4 10 14 10 22 C10 29 14.5 34 20 34 C25.5 34 30 29 30 22 C30 14 20 4 20 4 Z" fill="none" stroke="currentColor" stroke-width="1.6"/>
+        <circle cx="20" cy="22" r="3" fill="currentColor"/>
+      </svg>
+      <span>Kalash Café</span>
+    </a>
+    <nav class="site-nav" id="site-nav">
+      <a href="#about">About</a>
+      <a href="#menu">Menu</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#visit">Visit</a>
+    </nav>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="hero-panel">
+      <p class="hero-kicker">Mangalbazar, Lalitpur — Est. 2016</p>
+      <h1>A quiet cup,<br>poured with<br>care.</h1>
+      <p class="hero-sub">Small-batch roasts, hand-folded momo, and a terrace two minutes from the temple square.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#menu">See the menu</a>
+        <a class="btn btn-line" href="#visit">Find us</a>
+      </div>
+      <div class="hero-meta">
+        <span>Open daily, 7 — 8</span>
+        <span>·</span>
+        <span>4.8 ★ from 312 guests</span>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <img src="https://images.unsplash.com/photo-1511081692775-05d0f180a065?auto=format&fit=crop&w=1400&q=80" alt="Warm café interior with hanging pendant lights and wooden tables">
+    </div>
+  </section>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Specialty Coffee</span><span>—</span><span>Hand-folded Momo</span><span>—</span><span>Mangalbazar Terrace</span><span>—</span><span>Open Daily from 7</span><span>—</span>
+      <span>Specialty Coffee</span><span>—</span><span>Hand-folded Momo</span><span>—</span><span>Mangalbazar Terrace</span><span>—</span><span>Open Daily from 7</span><span>—</span>
+    </div>
+  </div>
+
+  <section class="about" id="about">
+    <div class="about-grid">
+      <div class="about-visual">
+        <img class="about-img-main" src="https://images.unsplash.com/photo-1542372147193-a7aca54189cd?auto=format&fit=crop&w=900&q=80" alt="Latte, croissant, and a book on a café table" loading="lazy">
+        <img class="about-img-small" src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=500&q=80" alt="Close-up of roasted coffee beans" loading="lazy">
+        <div class="about-badge">
+          <span class="figure-num">2016</span>
+          <span class="figure-label">Opened in a Newari house</span>
+        </div>
+      </div>
+      <div class="about-text">
+        <h2>A café built into the square, not beside it</h2>
+        <p>Kalash Café sits in a restored trader's house two doors from Mangalbazar's main courtyard. We kept the timber lattice windows and the brick floor — you'll drink your coffee where merchants once weighed rice.</p>
+        <p>We roast in small batches, source vegetables from Lalitpur's morning market, and fold our momo by hand every day before opening.</p>
+        <div class="about-figures">
+          <div class="figure">
+            <span class="figure-num">7am</span>
+            <span class="figure-label">First pour, every day of the week</span>
+          </div>
+          <div class="figure">
+            <span class="figure-num">3rd</span>
+            <span class="figure-label">Floor terrace, level with the roofline</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="menu" id="menu">
+    <div class="section-head">
+      <h2>Menu</h2>
+      <p>Prices in Nepali Rupees.</p>
+    </div>
+
+    <div class="menu-layout">
+      <div class="menu-tabs" role="tablist" aria-label="Menu categories">
+        <button class="tab-btn is-active" role="tab" aria-selected="true" data-tab="coffee">01 — Coffee</button>
+        <button class="tab-btn" role="tab" aria-selected="false" data-tab="food">02 — Traditional Food</button>
+        <button class="tab-btn" role="tab" aria-selected="false" data-tab="drinks">03 — Tea &amp; Drinks</button>
+        <button class="tab-btn" role="tab" aria-selected="false" data-tab="sweets">04 — Snacks &amp; Sweets</button>
+      </div>
+
+      <div class="menu-panels">
+        <div class="menu-panel is-active" id="panel-coffee" role="tabpanel">
+          <ul class="menu-list">
+            <li><div class="mi-name">Espresso</div><div class="mi-desc">Double shot, house blend</div><div class="mi-price">Rs 150</div></li>
+            <li><div class="mi-name">Americano</div><div class="mi-desc">Espresso, hot water</div><div class="mi-price">Rs 180</div></li>
+            <li><div class="mi-name">Cappuccino</div><div class="mi-desc">Equal parts espresso, steamed milk, foam</div><div class="mi-price">Rs 200</div></li>
+            <li><div class="mi-name">Café Latte</div><div class="mi-desc">Espresso, steamed milk, light foam</div><div class="mi-price">Rs 220</div></li>
+            <li><div class="mi-name">Mocha</div><div class="mi-desc">Espresso, steamed milk, dark chocolate</div><div class="mi-price">Rs 250</div></li>
+            <li><div class="mi-name">Mangalbazar Blend</div><div class="mi-desc">House specialty — Ilam beans, cardamom note</div><div class="mi-price">Rs 260</div></li>
+          </ul>
+        </div>
+
+        <div class="menu-panel" id="panel-food" role="tabpanel" hidden>
+          <ul class="menu-list">
+            <li><div class="mi-name">Momo</div><div class="mi-desc">Steamed dumplings, buff or veg, sesame chutney</div><div class="mi-price">Rs 180</div></li>
+            <li><div class="mi-name">Chowmein</div><div class="mi-desc">Pan-fried noodles, seasonal vegetables</div><div class="mi-price">Rs 200</div></li>
+            <li><div class="mi-name">Laphing</div><div class="mi-desc">Cold mung-bean jelly noodles, chilli oil</div><div class="mi-price">Rs 150</div></li>
+            <li><div class="mi-name">Keema Noodles</div><div class="mi-desc">Minced meat, egg, hand-pulled noodles</div><div class="mi-price">Rs 220</div></li>
+            <li><div class="mi-name">Syafale</div><div class="mi-desc">Newari fried pastry, spiced buff filling</div><div class="mi-price">Rs 100</div></li>
+          </ul>
+        </div>
+
+        <div class="menu-panel" id="panel-drinks" role="tabpanel" hidden>
+          <ul class="menu-list">
+            <li><div class="mi-name">Milk Tea</div><div class="mi-desc">Spiced, brewed with whole milk</div><div class="mi-price">Rs 60</div></li>
+            <li><div class="mi-name">Black Tea</div><div class="mi-desc">Ilam leaf, no milk</div><div class="mi-price">Rs 50</div></li>
+            <li><div class="mi-name">Sea Buckthorn Juice</div><div class="mi-desc">Fresh-pressed, local orchard</div><div class="mi-price">Rs 140</div></li>
+            <li><div class="mi-name">Soft Drinks</div><div class="mi-desc">Coke, Sprite, Fanta</div><div class="mi-price">Rs 90</div></li>
+          </ul>
+        </div>
+
+        <div class="menu-panel" id="panel-sweets" role="tabpanel" hidden>
+          <ul class="menu-list">
+            <li><div class="mi-name">Sel Roti</div><div class="mi-desc">Ring-shaped rice doughnut</div><div class="mi-price">Rs 80</div></li>
+            <li><div class="mi-name">Yomari</div><div class="mi-desc">Steamed rice-flour dumpling, molasses filling</div><div class="mi-price">Rs 120</div></li>
+            <li><div class="mi-name">Chocolate Cake</div><div class="mi-desc">Dark chocolate, house-baked</div><div class="mi-price">Rs 160</div></li>
+            <li><div class="mi-name">Cookie Plate</div><div class="mi-desc">Three, rotating flavors</div><div class="mi-price">Rs 100</div></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery" id="gallery">
+    <div class="section-head">
+      <h2>Gallery</h2>
+      <p>The room, the counter, the light.</p>
+    </div>
+    <div class="gallery-grid">
+      <img class="g-item g-wide" loading="lazy" src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=1200&q=80" alt="Bright, plant-filled café interior with wooden furniture">
+      <img class="g-item" loading="lazy" src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=700&q=80" alt="Barista pouring latte art into a cup">
+      <img class="g-item" loading="lazy" src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=700&q=80" alt="Close-up of roasted coffee beans">
+      <img class="g-item" loading="lazy" src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=700&q=80" alt="Guests chatting inside the café">
+      <img class="g-item g-tall" loading="lazy" src="https://images.unsplash.com/photo-1569096651661-820d0de8b4ab?auto=format&fit=crop&w=700&q=80" alt="Café patio seating with an open storefront">
+      <img class="g-item" loading="lazy" src="https://images.unsplash.com/photo-1559496417-e7f25cb247f3?auto=format&fit=crop&w=700&q=80" alt="A cup of coffee on a café table">
+    </div>
+    <p class="photo-credit">Café photography via Unsplash contributors.</p>
+  </section>
+
+  <section class="reviews" id="reviews">
+    <div class="section-head">
+      <h2>What people say</h2>
+      <div class="rating-summary">
+        <span class="rating-score">4.8</span>
+        <span class="rating-stars" aria-hidden="true">★★★★★</span>
+        <span class="rating-count">312 reviews</span>
+      </div>
+    </div>
+    <div class="review-track">
+      <blockquote class="review-card">
+        <p>"Best seat in Mangalbazar. I come for the mocha and stay an hour longer than planned watching the square."</p>
+        <cite>— Sabina T.</cite>
+      </blockquote>
+      <blockquote class="review-card">
+        <p>"The momo here tastes like someone's grandmother made it. Small place, big flavor, and the terrace view is unbeatable at sunset."</p>
+        <cite>— Daniel R., visiting from Bristol</cite>
+      </blockquote>
+      <blockquote class="review-card">
+        <p>"I bring my laptop most mornings. Quiet before 9, good wifi, and the staff remember your order by the second visit."</p>
+        <cite>— Prakash M.</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <section class="visit" id="visit">
+    <div class="visit-grid">
+      <div class="visit-info">
+        <h2>Visit</h2>
+        <dl>
+          <div><dt>Address</dt><dd>Mangalbazar Chowk, Patan, Lalitpur 44700</dd></div>
+          <div><dt>Hours</dt><dd>Every day, 7:00 AM – 8:00 PM</dd></div>
+          <div><dt>Phone</dt><dd><a href="tel:+9779800000000">+977 98-0000-0000</a></dd></div>
+          <div><dt>Seating</dt><dd>Ground floor, and a terrace on the third</dd></div>
+        </dl>
+        <a class="btn btn-primary" href="tel:+9779800000000">Call to reserve a terrace table</a>
+      </div>
+      <div class="visit-map">
+        <iframe title="Map to Mangalbazar, Lalitpur" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps?q=Mangal+Bazaar,+Lalitpur&output=embed"></iframe>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-wordmark" aria-hidden="true">Kalash Café</div>
+  <div class="footer-inner">
+    <span>© 2026 Kalash Café, Mangalbazar</span>
+    <div class="footer-links">
+      <a href="#top">Back to top</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
